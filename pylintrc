@@ -1,0 +1,8 @@
+[MESSAGES CONTROL]
+# Pylint and black disagree on hanging indentation.
+disable=C0330
+
+[MISCELLANEOUS]
+# Note: By default, "TODO" is flagged, this is disabled by omitting it
+#       from the list below.
+notes=FIXME,XXX
