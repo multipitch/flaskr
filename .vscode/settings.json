@@ -1,0 +1,35 @@
+{
+    "editor.rulers": [
+        72,
+        79,
+        80
+    ],
+    "editor.formatOnSave": true,
+    "python.pythonPath": "${env:VIRTUAL_ENV}/bin/python",
+    "python.venvPath": "~/.virtualenvs",
+    "python.formatting.provider": "black",
+    "python.linting.banditEnabled": true,
+    "python.linting.flake8Enabled": true,
+    "python.linting.mypyEnabled": true,
+    "python.linting.pylintEnabled": true,
+    "python.linting.banditArgs": [
+        "--ini=.bandit"
+    ],
+    "python.linting.mypyArgs": [
+        "--config-file=${workspaceFolder}/mypy.ini"
+    ],
+    "python.linting.pylintUseMinimalCheckers": false,
+    "[python]": {
+        "editor.codeActionsOnSave": {
+            "source.organizeImports": true
+        }
+    },
+    "python.testing.pytestArgs": [
+        "tests"
+    ],
+    "python.testing.unittestEnabled": false,
+    "python.testing.nosetestsEnabled": false,
+    "python.testing.pytestEnabled": true,
+    "git.autofetch": true,
+    "git.enableCommitSigning": true
+}
